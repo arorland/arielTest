@@ -1,0 +1,50 @@
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>test</groupId>
+    <artifactId>parent</artifactId>
+    <relativePath>../pom.xml</relativePath>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>vista360</artifactId>
+  <name>UI - ${project.artifactId}</name>
+
+  <properties>
+    <main.basedir>${project.parent.basedir}</main.basedir>
+    <appVersion>${project.version}</appVersion>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.robotframework</groupId>
+        <artifactId>robotframework-maven-plugin</artifactId>
+        <version>1.4.6</version>
+        <executions>
+            <execution>
+
+              <phase>test</phase>
+
+            </execution>
+         </executions>
+        <configuration>
+          <extraPathDirectories>
+            <extraPathDirectory>src/test/resources/robotframework/libraries</extraPathDirectory>
+          </extraPathDirectories>
+          <testCasesDirectory>src/test/robotframework/acceptance</testCasesDirectory>
+        </configuration>
+        <dependencies>
+        <dependency>
+          <groupId>org.robotframework</groupId>
+          <artifactId>robotframework</artifactId>
+          <version>3.0.2</version>
+        </dependency>
+      </dependencies>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

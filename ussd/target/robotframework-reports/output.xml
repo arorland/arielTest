@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Jython 2.7.0 on java1.8.0_171)" generated="20180423 09:35:30.517">
+<suite source="C:\Users\hp\workspaces\maven-multi-module-example-master\ussd\src\test\robotframework\Suites" name="Suites" id="s1">
+<suite source="C:\Users\hp\workspaces\maven-multi-module-example-master\ussd\src\test\robotframework\Suites\CBSBO_1003.robot" name="CBSBO 1003" id="s1-s1">
+<test name="Subcriptor Invalido" id="s1-s1-t1">
+<kw name="Abrir Navegador">
+<doc>Ingresamos al Navegador</doc>
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg level="INFO" timestamp="20180423 09:35:43.785">Opening browser 'firefox' to base url 'https://www.google.com.bo/'.</msg>
+<msg level="DEBUG" timestamp="20180423 09:35:48.351">POST http://127.0.0.1:51672/session {"capabilities": {"alwaysMatch": {"moz:firefoxOptions": {"profile": "UEsDBBQAAAAIAHhMl0w7w4c4uQMAAD0NAAAHAAAAdXNlci5qc51WwY7bNhC9F8g/FD61QE3sdptLe9putkCAoBvEWORIUNRI4poiWQ5prf8+Q8qKvbZlujnZkmbImTdv3kxE8Nx5aH5ZVN4O9MRQNJD/K9OyXuhBeGBgRKWhXvz2cyM0wq9/vfsp7l1rEcjIWR+STwdCh258ZmS0UbJ0gIEwWL9mXQiOuU5ht12mz04gLjWYNnTk+fv790d+U8weRE0/NQSQAep/lMdwT9FIDeQXfDyJ2PaU2yuXnbc9cJReucB9NDyoPvnc3cxcFUSFjDAxT+ZBW4SZjCbz2g5GW1HTbUa0Cd7ODl87MCuCLME14+8oLhcwXcd7WwtdKgFsgrUaGXhvvbQGrT5E/QwGqFpjDWHXQ1+BX+VHLOSDgKjILFhihQeMhF5DsXLpBXYFZ63MmlkHhsNrAG+ETlU9Mh6gqr3a0LOQEqgq0VDwSGXlEnzAmYKWKdgkVnyJplQxhU6LLdSPtzerfy2RKNX4jxlrelU/ma/KUKHx9oYpCtY+f/lELgtR2Rj+rLQw68UZ/o3hcaE1f0FCJCWrxgqcSfDVKUKdjNnQqQBaYaAT/ovKz3ICE8WiYx1R3BH5+ABaJrpHrwvxfa+YoDpRWxTYl6i3VoHt+njiOkGZvM4nlChgMpdYdFQ+YIbAbrbPZPL/dSa61GWPF6NEkNGrsCUmaKB/DINXMnDrVasMd1YruS2ww8BALcnKCL6NdTybpZerWPUqN9Hn/PI+s3w26O+NtytmKiSZHsvTFdddBue0RynVIfP6TJPapiFDWArnkBEp7cCrLa+hEVGHGbmZ0JfodnSaCeWUGdexj7qCtCz4LRvVMzscR35qfPnwCZfH50/37I6JfbXO5DjNMSmolTewTPUQenndEDyu9NS2BaK9iI0Y59dluT9N3MNLHpfn7d8yPgVSiH8v3KMdNyKBwGEDZk62D0otYrAfRsFYSSJg8ri9Ygo/EVfLRKq0lessmlcWAYSX3Y5/xRnfs7FTWB17d7kM1DHXsfoN8SzB6lU9I6UnwnasaHczPB2Fejl1MzEvxNIGsDOek+jdYnXFRnUw6DHvEftBT4IV8xQ4k+wB3+04MPNO9dE8jEtPEfZEtAvR74YWzxpYE5qm5Wm2/MCQZaKuVQpRXDtvsQOa8LIDuf4wiunf45cSXQ+X9h9e1rVt2/Rytz5eHhgHzZXjfSDJpYavlE5MNKrtgp6bpge+050Xm2ZOGvnUF6ynjTSTcpHWWA/HAO/Xp7T2Es1pdy3tT3st0A1GN+4Z4+DPx38DUEsBAhQDFAAAAAgAeEyXTDvDhzi5AwAAPQ0AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAA3gMAAAAA"}, "acceptInsecureCerts": true, "browserName": "firefox"}, "firstMatch": [{}]}, "desiredCapabilities": {"moz:firefoxOptions": {"profile": "UEsDBBQAAAAIAHhMl0w7w4c4uQMAAD0NAAAHAAAAdXNlci5qc51WwY7bNhC9F8g/FD61QE3sdptLe9putkCAoBvEWORIUNRI4poiWQ5prf8+Q8qKvbZlujnZkmbImTdv3kxE8Nx5aH5ZVN4O9MRQNJD/K9OyXuhBeGBgRKWhXvz2cyM0wq9/vfsp7l1rEcjIWR+STwdCh258ZmS0UbJ0gIEwWL9mXQiOuU5ht12mz04gLjWYNnTk+fv790d+U8weRE0/NQSQAep/lMdwT9FIDeQXfDyJ2PaU2yuXnbc9cJReucB9NDyoPvnc3cxcFUSFjDAxT+ZBW4SZjCbz2g5GW1HTbUa0Cd7ODl87MCuCLME14+8oLhcwXcd7WwtdKgFsgrUaGXhvvbQGrT5E/QwGqFpjDWHXQ1+BX+VHLOSDgKjILFhihQeMhF5DsXLpBXYFZ63MmlkHhsNrAG+ETlU9Mh6gqr3a0LOQEqgq0VDwSGXlEnzAmYKWKdgkVnyJplQxhU6LLdSPtzerfy2RKNX4jxlrelU/ma/KUKHx9oYpCtY+f/lELgtR2Rj+rLQw68UZ/o3hcaE1f0FCJCWrxgqcSfDVKUKdjNnQqQBaYaAT/ovKz3ICE8WiYx1R3BH5+ABaJrpHrwvxfa+YoDpRWxTYl6i3VoHt+njiOkGZvM4nlChgMpdYdFQ+YIbAbrbPZPL/dSa61GWPF6NEkNGrsCUmaKB/DINXMnDrVasMd1YruS2ww8BALcnKCL6NdTybpZerWPUqN9Hn/PI+s3w26O+NtytmKiSZHsvTFdddBue0RynVIfP6TJPapiFDWArnkBEp7cCrLa+hEVGHGbmZ0JfodnSaCeWUGdexj7qCtCz4LRvVMzscR35qfPnwCZfH50/37I6JfbXO5DjNMSmolTewTPUQenndEDyu9NS2BaK9iI0Y59dluT9N3MNLHpfn7d8yPgVSiH8v3KMdNyKBwGEDZk62D0otYrAfRsFYSSJg8ri9Ygo/EVfLRKq0lessmlcWAYSX3Y5/xRnfs7FTWB17d7kM1DHXsfoN8SzB6lU9I6UnwnasaHczPB2Fejl1MzEvxNIGsDOek+jdYnXFRnUw6DHvEftBT4IV8xQ4k+wB3+04MPNO9dE8jEtPEfZEtAvR74YWzxpYE5qm5Wm2/MCQZaKuVQpRXDtvsQOa8LIDuf4wiunf45cSXQ+X9h9e1rVt2/Rytz5eHhgHzZXjfSDJpYavlE5MNKrtgp6bpge+050Xm2ZOGvnUF6ynjTSTcpHWWA/HAO/Xp7T2Es1pdy3tT3st0A1GN+4Z4+DPx38DUEsBAhQDFAAAAAgAeEyXTDvDhzi5AwAAPQ0AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAA3gMAAAAA"}, "acceptInsecureCerts": true, "browserName": "firefox"}}</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:34.703">Finished Request</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:34.707">POST http://127.0.0.1:51672/session/f59b22b0-be13-413b-a7e5-b40a416d04c4/timeouts {"script": 5000}</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:35.252">Finished Request</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:35.278">POST http://127.0.0.1:51672/session/f59b22b0-be13-413b-a7e5-b40a416d04c4/timeouts {"implicit": 0}</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:35.786">Finished Request</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:35.788">POST http://127.0.0.1:51672/session/f59b22b0-be13-413b-a7e5-b40a416d04c4/url {"url": "https://www.google.com.bo/"}</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:47.218">Finished Request</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:47.220">Opened browser with session id f59b22b0-be13-413b-a7e5-b40a416d04c4.</msg>
+<status endtime="20180423 09:36:47.224" starttime="20180423 09:35:43.779" status="PASS"></status>
+</kw>
+<kw library="SeleniumLibrary" name="Maximize Browser Window">
+<doc>Maximizes current browser window.</doc>
+<msg level="DEBUG" timestamp="20180423 09:36:47.255">POST http://127.0.0.1:51672/session/f59b22b0-be13-413b-a7e5-b40a416d04c4/window/maximize {"windowHandle": "current"}</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:50.885">Finished Request</msg>
+<status endtime="20180423 09:36:50.891" starttime="20180423 09:36:47.230" status="PASS"></status>
+</kw>
+<status endtime="20180423 09:36:50.894" starttime="20180423 09:35:43.774" status="PASS"></status>
+</kw>
+<kw library="SeleniumLibrary" name="Close Browser">
+<doc>Closes the current browser.</doc>
+<msg level="DEBUG" timestamp="20180423 09:36:50.899">Closing browser with session id f59b22b0-be13-413b-a7e5-b40a416d04c4.</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:50.901">DELETE http://127.0.0.1:51672/session/f59b22b0-be13-413b-a7e5-b40a416d04c4 {}</msg>
+<msg level="DEBUG" timestamp="20180423 09:36:51.324">Finished Request</msg>
+<status endtime="20180423 09:36:51.341" starttime="20180423 09:36:50.896" status="PASS"></status>
+</kw>
+<doc>Prueba CBSBO-1003 "SUBCRIPTORES INVALIDOS"</doc>
+<status critical="yes" endtime="20180423 09:36:51.344" starttime="20180423 09:35:43.760" status="PASS"></status>
+</test>
+<doc>Prueba de Ingreso de subcriptor invalido</doc>
+<metadata>
+<item name="Link for CBSBO-1003">https://jira.tigo.net.bo/browse/CBSBO-1003</item>
+</metadata>
+<status endtime="20180423 09:36:51.357" starttime="20180423 09:35:32.340" status="PASS"></status>
+</suite>
+<status endtime="20180423 09:36:51.395" starttime="20180423 09:35:30.530" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Suites" id="s1">Suites</stat>
+<stat pass="1" fail="0" name="CBSBO 1003" id="s1-s1">Suites.CBSBO 1003</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

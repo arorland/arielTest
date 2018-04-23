@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" skip="0" tests="1" name="Acceptance">
+<testcase classname="Acceptance.CBSBO 1003" time="27" name="Subcriptor Invalido">
+</testcase>
+</testsuite>
