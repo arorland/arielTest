@@ -25,9 +25,7 @@
         <version>1.4.6</version>
         <executions>
             <execution>
-
-              <phase>test</phase>
-
+              
             </execution>
          </executions>
         <configuration>
